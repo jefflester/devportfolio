@@ -8,6 +8,13 @@ body.active {
 	z-index: -1
 }
 
+/* Begin Jeff's Changes */
+h3 a:hover {
+	text-decoration: none;
+	transition: background .3s, border .3s, box-shadow .3s, color .3s
+}
+/* End Jeff's Changes */
+
 .no-js #experience-timeline>div {
 	background: #fff;
 	padding: 10px;
